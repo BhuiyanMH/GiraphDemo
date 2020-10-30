@@ -24,6 +24,6 @@ public class GiraphHelloWorld2 extends
 /*
 Command to execute the program:
 giraph target/*.jar GiraphHelloWorld2 -vip src/main/resources/2 \
-–vif org.apache.giraph.io.formats.TextDoubleDoubleAdjacencyListVertexInputFormat \
+-vif org.apache.giraph.io.formats.TextDoubleDoubleAdjacencyListVertexInputFormat \
 -w 1 -ca giraph.SplitMasterWorker=false,giraph.logLevel=error
  */
